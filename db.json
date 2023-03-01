@@ -526,8 +526,9 @@
       "id": 1,
       "origanizationId": 1,
       "name": "string 1",
-      "description": "description",
+      "description": "<p>asdasdasdasdasdasd</p>",
       "customData": "custom",
+      "status": "",
       "createdAt": "2023-02-19T04:23:27.764Z",
       "updatedAt": "2023-02-20T04:23:27.764Z",
       "origanization": {
@@ -543,8 +544,9 @@
       "id": 2,
       "origanizationId": 1,
       "name": "string 1",
-      "description": "description",
+      "description": "<p>asdasdasdasdasdasd</p>",
       "customData": "custom",
+      "status": "Official",
       "createdAt": "2023-02-19T04:23:27.764Z",
       "updatedAt": "2023-02-20T04:23:27.764Z",
       "origanization": {
@@ -560,8 +562,9 @@
       "id": 3,
       "origanizationId": 1,
       "name": "string 1",
-      "description": "description",
+      "description": "<p>asdasdasdasdasdasd</p>",
       "customData": "custom",
+      "status": "Draft",
       "createdAt": "2023-02-19T04:23:27.764Z",
       "updatedAt": "2023-02-20T04:23:27.764Z",
       "origanization": {
@@ -577,7 +580,8 @@
       "id": 4,
       "origanizationId": 1,
       "name": "string 1",
-      "description": "description",
+      "status": "Official",
+      "description": "<p>asdasdasdasdasdasd</p>",
       "customData": "custom",
       "createdAt": "2023-02-19T04:23:27.764Z",
       "updatedAt": "2023-02-20T04:23:27.764Z",
@@ -594,8 +598,9 @@
       "id": 5,
       "origanizationId": 1,
       "name": "string 1",
-      "description": "description",
+      "description": "<p>asdasdasdasdasdasd</p>",
       "customData": "custom",
+      "status": "Draft",
       "createdAt": "2023-02-19T04:23:27.764Z",
       "updatedAt": "2023-02-20T04:23:27.764Z",
       "origanization": {
@@ -606,6 +611,12 @@
         "createdAt": "2023-02-19T04:23:27.764Z",
         "updatedAt": "2023-02-20T04:23:27.764Z"
       }
+    },
+    {
+      "customData": [],
+      "name": "asd",
+      "description": "<p>asdasdasdasdasdasd</p>",
+      "id": 6
     }
   ],
   "tokens": [
@@ -659,6 +670,8 @@
       "fromYear": 2022,
       "toYear": 2032,
       "percent": 32,
+      "price": 1000,
+      "status": "Draft",
       "type": "In progress",
       "area": {
         "id": 1,
@@ -688,6 +701,8 @@
       "fromYear": 2022,
       "toYear": 2060,
       "percent": 60,
+      "price": 123,
+      "status": "Official",
       "type": "In progress",
       "area": {
         "id": 1,
